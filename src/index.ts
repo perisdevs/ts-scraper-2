@@ -4,9 +4,7 @@ const testingScrapeFunction = function(response: any) {
     console.log(response);
 }
 
-const testingScrape = new Scrape('mhrise.kiranico.com',
-    '/data/weapons?view=0', testingScrapeFunction);
+const testingScrape = new Scrape('github.com',
+    '/perisdevs/ts-scraper-2', testingScrapeFunction);
 
 const response = testingScrape.scrape();
-
-console.log(response);
