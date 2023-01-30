@@ -1,10 +1,10 @@
 {
   "name": "ts-scraper-2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple TS scraper",
+  "main": "./dist/main.js",
   "scripts": {
-    "test": "npx tsc && node ./dist/index.js"
+    "test": "npx tsc && node ./dist/test.js"
   },
   "keywords": [],
   "author": "",
